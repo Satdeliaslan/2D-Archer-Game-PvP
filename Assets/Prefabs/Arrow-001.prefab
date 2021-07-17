@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7535690565596706709}
   - component: {fileID: 4473711950639889041}
   - component: {fileID: 3758186384180117588}
-  m_Layer: 0
+  - component: {fileID: 7359917118034905558}
+  m_Layer: 7
   m_Name: Arrow-001
   m_TagString: Arrow
   m_Icon: {fileID: 0}
@@ -162,3 +163,15 @@ PolygonCollider2D:
       - {x: -0.61, y: -3.585}
       - {x: 0.62, y: -3.585}
       - {x: 0.62, y: -2.885}
+--- !u!114 &7359917118034905558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5379726726144195815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efd934a510037dd4b8c7dde0b7c13151, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

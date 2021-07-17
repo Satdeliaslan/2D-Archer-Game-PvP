@@ -343,11 +343,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Scripts/ArrowSticky.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Point.cs"
-"Assets/Scripts/ShootArrows.cs"
-"Assets/shootArrows.cs"
+"Assets/Scripts/shootArrows.cs"
 -langversion:8.0
 
 /deterministic
