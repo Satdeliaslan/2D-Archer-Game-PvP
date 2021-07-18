@@ -345,6 +345,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/ArrowSticky.cs"
 "Assets/Scripts/CameraController.cs"
+"Assets/Scripts/EnemyAi.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Point.cs"
 "Assets/Scripts/shootArrows.cs"
