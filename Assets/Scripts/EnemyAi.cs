@@ -51,8 +51,8 @@ public class EnemyAi : MonoBehaviour
         bool val = false;
         float castDist = distance;
         Vector2 endPos = castPoint.transform.position + Vector3.right * distance;
-        //RaycastHit2D hit = Physics2D.Linecast(castPoint.transform.position, endPos, 1 << LayerMask.NameToLayer("Action"));
-        RaycastHit2D hit = Physics2D.Raycast(castPoint.transform.position,rb.transform.rotation,castDist, 1 << LayerMask.NameToLayer("Action"));
+        RaycastHit2D hit = Physics2D.Linecast(castPoint.transform.position, endPos, 1 << LayerMask.NameToLayer("Action"));
+        //RaycastHit2D hit = Physics2D.Raycast(castPoint.transform.position,rb.transform.rotation,castDist, 1 << LayerMask.NameToLayer("Action"));
         /*
          RaycastHit2D Raycast(Vector2 origin, Vector2 direction, float distance = Mathf.Infinity, 
                 int layerMask = DefaultRaycastLayers, float minDepth = -Mathf.Infinity, float maxDepth = Mathf.Infinity);

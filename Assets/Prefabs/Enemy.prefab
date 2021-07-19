@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4560529022109950897}
   m_Layer: 0
-  m_Name: Arrows
+  m_Name: arrowParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,36 +29,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4560529023143760449}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &4560529022352994403
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4560529022352994402}
-  m_Layer: 0
-  m_Name: CastPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4560529022352994402
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4560529022352994403}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.55, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4560529023457259045}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4560529022790661092
 GameObject:
@@ -301,7 +271,6 @@ GameObject:
   - component: {fileID: 4560529023457259045}
   - component: {fileID: 4560529023457259050}
   - component: {fileID: 4560529023457259051}
-  - component: {fileID: 4560529023457259044}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -321,7 +290,6 @@ Transform:
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4560529023143760449}
-  - {fileID: 4560529022352994402}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -362,19 +330,3 @@ CircleCollider2D:
   m_Offset: {x: 0.017214298, y: 0}
   serializedVersion: 2
   m_Radius: 0.43975067
---- !u!114 &4560529023457259044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4560529023457259048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b628698bba67644fb2714d9c253909e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  castPoint: {fileID: 4560529022352994403}
-  range: 3
-  moveSpeed: 75
