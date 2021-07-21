@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7535690565596706709}
   - component: {fileID: 4473711950639889041}
   - component: {fileID: 3758186384180117588}
-  - component: {fileID: 7830274415737523022}
   - component: {fileID: 7359917118034905558}
   m_Layer: 7
   m_Name: Arrow-001
@@ -107,7 +106,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 0
 --- !u!60 &3758186384180117588
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -164,20 +163,6 @@ PolygonCollider2D:
       - {x: -0.61, y: -3.585}
       - {x: 0.62, y: -3.585}
       - {x: 0.62, y: -2.885}
---- !u!114 &7830274415737523022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5379726726144195815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5835c298c60293f4aaab10b4817e555a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  arrowSpeed: 20
 --- !u!114 &7359917118034905558
 MonoBehaviour:
   m_ObjectHideFlags: 0

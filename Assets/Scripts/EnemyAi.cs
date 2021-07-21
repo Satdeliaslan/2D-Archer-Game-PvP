@@ -44,7 +44,7 @@ public class EnemyAi : MonoBehaviour
     }
     void stopChasingPlayer()
     {
-        rb.velocity = new Vector2(0, 0);
+        rb.velocity = Vector2.zero;
     }
     bool isEnemySeePlayer(float distance)
     {

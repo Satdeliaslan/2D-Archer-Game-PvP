@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\EnemyPathai.cs" />
     <Compile Include="Assets\Scripts\ArrowSticky.cs" />
     <Compile Include="Assets\Scripts\shootArrows.cs" />
+    <Compile Include="Assets\Scripts\ArrowSticky2.cs" />
     <Compile Include="Assets\Scripts\arrowScript.cs" />
     <Compile Include="Assets\Scripts\Point.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />

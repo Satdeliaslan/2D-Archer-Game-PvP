@@ -14,8 +14,20 @@ public class ArrowSticky : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
-            rb.velocity = Vector2.zero;
-            rb.isKinematic = true;
+            //enemye yapýþacak
+            //rb.velocity = new Vector2(0, 0);
+            //rb.isKinematic = true; //stop physic
+           
+        }
+        else if (collision.CompareTag("Arrow") || collision.CompareTag("Player"))
+        {
+
+        }
+        else
+        {
+            rb.velocity = new Vector2(0, 0);
+            rb.isKinematic = true; //stop physic
+            Destroy(gameObject, 5);
         }
     }
 }

@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
     public Rigidbody2D rigidBody;
     private void Start()
     {
-        
+        rigidBody = GetComponent<Rigidbody2D>();
     }
     private void Update()
     {
@@ -24,4 +24,5 @@ public class PlayerController : MonoBehaviour
     {
         rigidBody.MovePosition(rigidBody.position + movement * _SpeedNormal * Time.fixedDeltaTime);
     }
+   
 }
