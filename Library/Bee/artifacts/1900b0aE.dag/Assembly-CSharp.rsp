@@ -353,6 +353,7 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/EnemyAi.cs"
 "Assets/Scripts/EnemyPathai.cs"
+"Assets/Scripts/HealthSystem.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Point.cs"
 "Assets/Scripts/shootArrows.cs"

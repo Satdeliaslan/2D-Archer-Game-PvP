@@ -19,7 +19,7 @@ public class ArrowSticky2 : MonoBehaviour
             //rb.isKinematic = true;
             gameObject.transform.parent = GameObject.Find("StickyArrow").transform;
         }
-        else if (collision.CompareTag("Arrow") || collision.CompareTag("Enemy"))
+        else if (collision.CompareTag("ArrowPlayer") || collision.CompareTag("Enemy"))
         {
 
         }

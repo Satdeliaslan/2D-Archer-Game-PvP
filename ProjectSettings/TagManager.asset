@@ -10,6 +10,7 @@ TagManager:
   - PassableBlock
   - closeTrigger
   - CastPoint
+  - ArrowPlayer
   layers:
   - Default
   - TransparentFX

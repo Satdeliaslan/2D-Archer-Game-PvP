@@ -11,11 +11,11 @@ GameObject:
   - component: {fileID: 8521217043296720294}
   - component: {fileID: 7535690565596706709}
   - component: {fileID: 4473711950639889041}
-  - component: {fileID: 3758186384180117588}
+  - component: {fileID: 5790337180098047648}
   - component: {fileID: 7359917118034905558}
   m_Layer: 7
   m_Name: Arrow-001
-  m_TagString: Arrow
+  m_TagString: ArrowPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,8 +107,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!60 &3758186384180117588
-PolygonCollider2D:
+--- !u!68 &5790337180098047648
+EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -121,48 +121,18 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.24, y: 7.17}
-    newSize: {x: 1.24, y: 7.17}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_EdgeRadius: 0
   m_Points:
-    m_Paths:
-    - - {x: 0.48, y: -2.565}
-      - {x: 0.39999998, y: -2.445}
-      - {x: 0.19999999, y: -2.2849998}
-      - {x: 0.16, y: -2.0249999}
-      - {x: 0.11, y: 0.825}
-      - {x: 0.099999994, y: 1.405}
-      - {x: 0.089999996, y: 1.9749999}
-      - {x: 0.39999998, y: 2.405}
-      - {x: 0.42999998, y: 2.415}
-      - {x: 0.28, y: 2.8049998}
-      - {x: 0, y: 3.465}
-      - {x: -0.07, y: 3.585}
-      - {x: -0.089999996, y: 3.585}
-      - {x: -0.11, y: 3.5749998}
-      - {x: -0.24, y: 3.3149998}
-      - {x: -0.62, y: 2.495}
-      - {x: -0.62, y: 2.395}
-      - {x: -0.28, y: 2.145}
-      - {x: -0.28, y: 1.5849999}
-      - {x: -0.26, y: 0.435}
-      - {x: -0.22, y: -1.8449999}
-      - {x: -0.21, y: -2.2949998}
-      - {x: -0.26, y: -2.345}
-      - {x: -0.35, y: -2.465}
-      - {x: -0.55, y: -2.915}
-      - {x: -0.59999996, y: -3.2549999}
-      - {x: -0.62, y: -3.425}
-      - {x: -0.62, y: -3.5749998}
-      - {x: -0.61, y: -3.585}
-      - {x: 0.62, y: -3.585}
-      - {x: 0.62, y: -2.885}
+  - {x: 0.41955057, y: 2.4203367}
+  - {x: -0.06371979, y: 2.4155128}
+  - {x: -0.28201944, y: 2.4144826}
+  - {x: -0.6103019, y: 2.42905}
+  - {x: -0.10123299, y: 3.5727913}
+  - {x: 0.41540214, y: 2.423869}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!114 &7359917118034905558
 MonoBehaviour:
   m_ObjectHideFlags: 0
