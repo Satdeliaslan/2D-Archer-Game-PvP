@@ -1,0 +1,369 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.13f1 (a03098edbbe0) revision 10498200'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1387; Version 2009; 64bit' Language: 'tr' Physical Memory: 8076 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\Oyun Progmramlama\Uniy Versions\2021.1.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Github/2D Archer Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50093
+Successfully changed project path to: F:/Github/2D Archer Game
+F:/Github/2D Archer Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 132.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.13f1 (a03098edbbe0)
+[Subsystems] Discovering subsystems at path F:/Oyun Progmramlama/Uniy Versions/2021.1.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Github/2D Archer Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4021 MB
+    Driver:   24.21.13.9924
+Initialize mono
+Mono path[0] = 'F:/Oyun Progmramlama/Uniy Versions/2021.1.13f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Oyun Progmramlama/Uniy Versions/2021.1.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Oyun Progmramlama/Uniy Versions/2021.1.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56512
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/Oyun Progmramlama/Uniy Versions/2021.1.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/Oyun Progmramlama/Uniy Versions/2021.1.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005918 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 134.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3194ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (644ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (134ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (132ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012350 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Github\2D Archer Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Github\2D Archer Game\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 138.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.757 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1758ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1470ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (524ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (605ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (139ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.3 MB.
+System memory in use after: 142.4 MB.
+
+Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 4260.
+Total: 3.377000 ms (FindLiveObjects: 0.468600 ms CreateObjectMapping: 0.222900 ms MarkObjects: 2.505800 ms  DeleteObjects: 0.178800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/ArrowSticky2.cs
+  artifactKey: Guid(223c80db30ecfb046a9cd4db9ef6d076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ArrowSticky2.cs using Guid(223c80db30ecfb046a9cd4db9ef6d076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64dff348631ebca798ce6fbf2b54d410') in 0.155256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Scripts/shootArrows.cs
+  artifactKey: Guid(2692db2ba8fec7740b1bc22395babe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/shootArrows.cs using Guid(2692db2ba8fec7740b1bc22395babe88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fbd96f7c20888dc3e8df319fcfb171') in 0.010596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(44469429e6db6214e916a4e57d2ce794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(44469429e6db6214e916a4e57d2ce794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5438a586d7903d81101a876e0aedb31d') in 0.009516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.769707 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/building_1.asset
+  artifactKey: Guid(e35f64a0090479a49842b3708b214eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/building_1.asset using Guid(e35f64a0090479a49842b3708b214eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e0762484c96c64ba89dc8b9c426ee8') in 0.303572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/custom palet 2.prefab
+  artifactKey: Guid(685ae82cd1db8bb42a6902f807c5859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/custom palet 2.prefab using Guid(685ae82cd1db8bb42a6902f807c5859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b8ac3b5e0e0565afb8ca7bf5042bf5') in 0.675007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/building_4.asset
+  artifactKey: Guid(63d1849484ed0bb4c84680f900924255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/building_4.asset using Guid(63d1849484ed0bb4c84680f900924255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9534780cb775c1bbe734c40faa1836') in 0.061253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_2.asset
+  artifactKey: Guid(1bee187b737c0a34d8aea168b5639d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_2.asset using Guid(1bee187b737c0a34d8aea168b5639d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900550bd03ed7e09dd1486025b704d5d') in 0.021688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_6.asset
+  artifactKey: Guid(5b376c16bd6c38443ae22145099f1733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_6.asset using Guid(5b376c16bd6c38443ae22145099f1733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f5e5635b79cfe752bc9f8e11a60dbf') in 0.019733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_7.asset
+  artifactKey: Guid(a5f273b2bc5f05640b5e4611dccfb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_7.asset using Guid(a5f273b2bc5f05640b5e4611dccfb9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '379ac62441b1e68db5fb78549c606fbc') in 0.032412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_7.asset
+  artifactKey: Guid(a9b2520f02046544ab92a6b259493798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_7.asset using Guid(a9b2520f02046544ab92a6b259493798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8037d99fead76eeb3f34d3247a763fe7') in 0.040983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_11.asset
+  artifactKey: Guid(1ce8a666700269c4a8d77f64ea633997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_11.asset using Guid(1ce8a666700269c4a8d77f64ea633997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eed314e8a05c0d1037d1aa4e1f5efed4') in 0.025332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/Custom Palet 3.prefab
+  artifactKey: Guid(4b0203660984f0c41b6985725e87e0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/Custom Palet 3.prefab using Guid(4b0203660984f0c41b6985725e87e0fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826dff7c61d5a8bd9ebdac4a4ddea41b') in 0.384132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_2.asset
+  artifactKey: Guid(11891f4a3d47ade429583ea34c1cab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_2.asset using Guid(11891f4a3d47ade429583ea34c1cab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0422605d277a224f7b73197e00e6c728') in 0.016241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_9.asset
+  artifactKey: Guid(46189947531be2a40a371412f5b5feb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_9.asset using Guid(46189947531be2a40a371412f5b5feb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d31e0f78290f7ad89d93d633f9718f') in 0.018861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_1.asset
+  artifactKey: Guid(eac0d166d3a11d544a6baf8d20ece31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_1.asset using Guid(eac0d166d3a11d544a6baf8d20ece31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f56b7e99b47b90cb416191de6706fe9') in 0.017553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_5.asset
+  artifactKey: Guid(335d0eb2d88cdb844ab035ad73a167d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_5.asset using Guid(335d0eb2d88cdb844ab035ad73a167d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8034cd8c7d20f467a3fe9268cd8aee64') in 0.019300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000718 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_5.asset
+  artifactKey: Guid(5721a414aca01f843a29c243a2be5deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_5.asset using Guid(5721a414aca01f843a29c243a2be5deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfd6a9b1fffa9fddd8878acea611866') in 0.048341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_10.asset
+  artifactKey: Guid(44e3fee96752b774f83ec7328b3e3c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_10.asset using Guid(44e3fee96752b774f83ec7328b3e3c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6d7bfdc553c29eb4d4603396a196dc') in 0.014987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000607 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_10.asset
+  artifactKey: Guid(43d93aec7e9e9a745a888f9c29055f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_10.asset using Guid(43d93aec7e9e9a745a888f9c29055f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7beccb01792e750e0ab54416a3734df') in 0.031601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000529 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/Custom Palet.prefab
+  artifactKey: Guid(0c56631c8b80dd249aaff8d8373570a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/Custom Palet.prefab using Guid(0c56631c8b80dd249aaff8d8373570a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f878a14e690dc18a510a59b3cc051da2') in 0.049471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_4.asset
+  artifactKey: Guid(8caedcc97bc366f41802caea50bee199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_4.asset using Guid(8caedcc97bc366f41802caea50bee199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade482e70545ca4b3bdc1d3be2704b99') in 0.018507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/building_2.asset
+  artifactKey: Guid(478fd0ac8f930c045b7c0a83eac361c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/building_2.asset using Guid(478fd0ac8f930c045b7c0a83eac361c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af5b899dadb1ba6aa25c5e785de10e0') in 0.022426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/building_3.asset
+  artifactKey: Guid(aa435cba01fec6948a9483b23cecd675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/building_3.asset using Guid(aa435cba01fec6948a9483b23cecd675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617f9639bce5a4027629147423b17e4c') in 0.018428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/lake.asset
+  artifactKey: Guid(3f6c457100622f4418146d506aff8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/lake.asset using Guid(3f6c457100622f4418146d506aff8a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f3fd92eff3afd8fc9046095b612dff') in 0.024374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_8.asset
+  artifactKey: Guid(553c0e35960d62c419b0bf37328117e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_8.asset using Guid(553c0e35960d62c419b0bf37328117e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3587b456119459a453cb0c658b908c4c') in 0.018378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_3.asset
+  artifactKey: Guid(0d27f69e52bb091449250c5758d07f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_3.asset using Guid(0d27f69e52bb091449250c5758d07f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe91e3cb670a7a673b72238564a7ffe') in 0.020172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_6.asset
+  artifactKey: Guid(6bdf317341963ae42a91b20251133142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_6.asset using Guid(6bdf317341963ae42a91b20251133142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688b84ab113324e68d2bea7de49f594c') in 0.020055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/land_3.asset
+  artifactKey: Guid(3b3bbeefdb785b241869df74e114e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/land_3.asset using Guid(3b3bbeefdb785b241869df74e114e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b255c8577d227f551115963e3426702d') in 0.020941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/greenery_9.asset
+  artifactKey: Guid(7807d934d50edd34884787bc2a884f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/greenery_9.asset using Guid(7807d934d50edd34884787bc2a884f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27139ade642e24d67dcd22004ed99f3f') in 0.017908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.987550 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert
+  artifactKey: Guid(94f149eaa7b642440bff2efc5af38ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert using Guid(94f149eaa7b642440bff2efc5af38ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0f4f57fcbcfc08b21ca9b28e846373') in 0.008144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.956399 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/tree_7.asset
+  artifactKey: Guid(3cc79150c0342c64c9c34608a0af3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/tree_7.asset using Guid(3cc79150c0342c64c9c34608a0af3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb814ffbe309fb78ff6e910d8c6f29ac') in 0.112267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/tree_12.asset
+  artifactKey: Guid(930da8ccafb37354f821a8e76169184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/tree_12.asset using Guid(930da8ccafb37354f821a8e76169184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875d41880538770ed5785c5b999675e2') in 0.027907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/tree_11.asset
+  artifactKey: Guid(c452ad5054feb2940b42f16c85b4d248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/tree_11.asset using Guid(c452ad5054feb2940b42f16c85b4d248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4ec62780a8fba2a71e1d650aca2ff1') in 0.036005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/tree_10.asset
+  artifactKey: Guid(9a68583be8b9b20489a5d8f93723a931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/tree_10.asset using Guid(9a68583be8b9b20489a5d8f93723a931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bfce71534b6a5d0757a79a664e78ba') in 0.027520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/tree_8.asset
+  artifactKey: Guid(30f2a42c5d27a7f4b808dfd0a1ee98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/tree_8.asset using Guid(30f2a42c5d27a7f4b808dfd0a1ee98b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf0574e6a353f87df39cb72c2e4d38f') in 0.019173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Sprites/Custom Tilemap Desert/tree_9.asset
+  artifactKey: Guid(89223d0849fdee14d9efd8d9c7189509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Custom Tilemap Desert/tree_9.asset using Guid(89223d0849fdee14d9efd8d9c7189509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fcd7d6ca461c6c7284235b3e7316416') in 0.016018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 429.778547 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aa73c10916188d4e5299c5bdd9db3e') in 0.007049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2467.370606 seconds.
+  path: Assets/Sprites/denemetilemap
+  artifactKey: Guid(26838673d5cda324084eba0d40700acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/denemetilemap using Guid(26838673d5cda324084eba0d40700acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c4904cc88eda3cb42e6ec1a039def2') in 0.031330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.374652 seconds.
+  path: Assets/Sprites/desertdeneme 2
+  artifactKey: Guid(f80050c555762e546a7266f3f7a8e0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/desertdeneme 2 using Guid(f80050c555762e546a7266f3f7a8e0e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0375efda98592f56c82eacdaab621c') in 0.030408 seconds 
